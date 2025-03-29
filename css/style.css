@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins_Bold";
+    src: url(../fonts/Poppins-Bold.woff2);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Poppins_Bold", sans-serif;
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.produkt_unit img {
+    width: 192px;
+    height: 120px;
+}
+
+
+/*### Navigation ###*/
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 128px;
+    
+    background-color: #3B0D32;
+    color: white;
+}
+
+header h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36pt;
+    margin-left: 64px;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 64px;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #3B0D32;
+    background-color: white;
+    
+    margin-left: 64px;
+    border-radius: 30px;
+    width: 128px;
+    height: 48px;
+    
+    font-family: "Poppins_Bold";
+}
+
+
+/*### Hero Section ###*/
+
+.hero_sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6C4965;
+    color: white;
+    text-align: center;
+    height: 720px;
+}
+
+.hero_sec p {
+    margin: 32px 0 32px 0;
+}
+
+.hero_sec .p_bold {
+    font-family: "Poppins_Bold";
+    margin-bottom: 0;
+}
+
+.hero_sec .btn p {
+    margin-bottom: 16px;
+}
+
+.hero_sec .btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #3B0D32;
+    background-color: white;
+    
+
+    border-radius: 30px;
+    width: 160px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: "Poppins_Bold";
+}
+
+.hero_img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 64px;
+}
+
+.hero_img img {
+    border-radius: 72px;
+}
+
+
+/*### Produkt Section ###*/
+
+.produkt_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 720px;
+    background-color: #E6E0E5;
+    color: #3B0D32;
+}
+
+.produkt_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 48px;
+}
+
+.produkt_unit {
+    display: flex;
+    align-items: center;
+    background-color: #3B0D32;
+    color: white;
+    
+    height: 192px;
+    width: 512px;
+    border-radius: 72px;
+}
+
+.produkt_unit img {
+    margin: 0 32px;
+    border-radius: 45px;
+}
+
+.produkt_unit_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.produkt_unit_text h3, p{
+    font-size: 11pt;
+}
+
+.produkt_sec h2 {
+    margin-bottom: 48px;
+}
+
+.produkt_sec .btn {
+    margin-top: 48px;
+}
+
+.produkt_sec .btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    background-color:#3B0D32;
+    
+
+    border-radius: 30px;
+    width: 160px;
+    height: 48px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: "Poppins_Bold";
+}
+
+
+/*### Footer Kontakt ###*/
+
+footer {
+    background-color: #3B0D32;
+    color: white;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.kontakt {
+    display: flex;
+}
+
+.kontakt_unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 512px;
+    height: 192px;
+    border-radius: 72px;
+    margin: 0 24px;
+    
+    background-color: #E6E0E5;
+    color: #3B0D32;
+}
+
+.copyright {
+    margin-top: 48px;
+}

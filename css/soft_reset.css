@@ -1,0 +1,27 @@
+/*### Soft Reset ###*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*### Debugging-Tool ###*/
+    /*outline: 1px solid red;*/
+}
+
+body{
+     font-family: Arial, sans-serif; 
+    line-height: 1.5;
+    background-color: #fff;
+    color: #333;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button,
+input,
+textarea{
+    font: inherit;
+}
